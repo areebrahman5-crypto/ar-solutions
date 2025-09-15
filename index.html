@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AR Solutions | Pressure Washing in Atlanta</title>
+  <meta name="description" content="Professional pressure washing in Atlanta: driveways, roofs, curbs, patios, wood, and more. Request an in-person consult and book online." />
+  <meta name="theme-color" content="#0a3d62" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="AR Solutions | Pressure Washing" />
+  <meta property="og:description" content="Driveways, roofs, curbs, patios, wood—expert pressure washing done right. Book or request a consult." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://YOUR-USERNAME.github.io/" />
+  <meta property="og:image" content="https://YOUR-USERNAME.github.io/og-image.jpg" />
+
+  <!-- LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"AR Solutions",
+    "image":"https://YOUR-USERNAME.github.io/logo.png",
+    "url":"https://YOUR-USERNAME.github.io/",
+    "telephone":"+1-404-555-0123",
+    "priceRange":"$$",
+    "address":{
+      "@type":"PostalAddress",
+      "addressLocality":"Atlanta",
+      "addressRegion":"GA",
+      "postalCode":"30301",
+      "addressCountry":"US"
+    },
+    "geo":{"@type":"GeoCoordinates","latitude":33.7490,"longitude":-84.3880},
+    "areaServed":"Metro Atlanta",
+    "openingHours":"Mo,Tu,We,Th,Fr,Sa 08:00-18:00"
+  }
+  </script>
+
+  <style>
+    :root {
+      --brand:#0a3d62; --brand2:#1e90ff; --light:#f6f9fc; --dark:#0b1b2a; --ok:#17a2b8; --accent:#ffc107;
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:#1f2d3d; background:#fff; }
+    a { color:var(--brand2); text-decoration:none; }
+    header { position:sticky; top:0; z-index:10; background:#fff; border-bottom:1px solid #e6ecf1; }
+    .wrap { max-width:1100px; margin:0 auto; padding:0 16px; }
+    .nav { display:flex; align-items:center; justify-content:space-between; height:64px; }
+    .logo { display:flex; align-items:center; gap:12px; font-weight:800; color:var(--brand); }
+    .logo .mark { width:36px; height:36px; background:linear-gradient(135deg, var(--brand), var(--brand2)); border-radius:8px; display:grid; place-items:center; color:#fff; font-weight:900; }
+    nav ul { display:flex; gap:20px; list-style:none; margin:0; padding:0; }
+    .btn { display:inline-block; padding:12px 18px; border-radius:10px; font-weight:700; transition:transform .06s ease, box-shadow .2s ease, background .2s ease; }
+    .btn:active { transform:translateY(1px); }
+    .btn-primary { background:var(--brand); color:#fff; box-shadow:0 8px 20px rgba(10,61,98,.18); }
+    .btn-primary:hover { background:#074063; }
+    .btn-outline { border:2px solid var(--brand); color:var(--brand); }
+    .hero { background:linear-gradient(180deg, #eef6ff, #ffffff 65%); }
+    .hero .wrap { display:grid; grid-template-columns:1.2fr 1fr; gap:24px; padding:48px 16px; align-items:center; }
+    .hero h1 { font-size:40px; margin:0 0 10px; color:var(--dark); }
+    .hero p { font-size:18px; margin:0 0 18px; color:#3b4a5a; }
+    .badges { display:flex; gap:12px; flex-wrap:wrap; margin:14px 0 0; }
+    .badge { background:#fff; border:1px solid #e6ecf1; padding:8px 12px; border-radius:999px; font-size:13px; color:#35506a; }
+    .hero-card { background:#fff; border:1px solid #e6ecf1; padding:20px; border-radius:14px; box-shadow:0 10px 30px rgba(0,0,0,.06); }
+    .grid { display:grid; gap:16px; }
+    .grid-3 { grid-template-columns:repeat(3, 1fr); }
+    .grid-2 { grid-template-columns:repeat(2, 1fr); }
+    section { padding:48px 0; }
+    h2 { margin:0 0 18px; font-size:28px; color:var(--dark); }
+    .card { background:#fff; border:1px solid #e6ecf1; border-radius:14px; padding:18px; display:flex; flex-direction:column; gap:10px; }
+    .price { font-size:22px; font-weight:800; color:var(--brand); }
+    .pill { font-size:12px; background:#e8f4ff; color:#0a3d62; padding:4px 8px; border-radius:999px; display:inline-block; }
+    .features { display:flex; flex-direction:column; gap:6px; margin:8px 0; }
+    .features li { list-style:none; display:flex; gap:8px; align-items:flex-start; }
+    .features li::before { content:"✓"; color:#198754; font-weight:900; }
+    .notice { background:#fff7e6; border:1px solid #ffe8b3; color:#7b4d00; padding:12px 14px; border-radius:10px; }
+    .gallery { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+    .gallery img { width:100%; height:150px; object-fit:cover; border-radius:10px; border:1px solid #e6ecf1; }
+    .faq details { border:1px solid #e6ecf1; border-radius:10px; padding:12px 14px; background:#fff; }
+    .faq summary { font-weight:700; cursor:pointer; }
+    .contact { background:var(--light); border-top:1px solid #e6ecf1; }
+    form { display:grid; gap:12px; }
+    input, select, textarea { width:100%; padding:12px; border:1px solid #ccd6e0; border-radius:10px; font:inherit; }
+    label { font-size:14px; color:#4a5d73; }
+    footer { background:#0b1b2a; color:#cfe0ee; }
+    footer a { color:#cfe0ee; text-decoration:underline; }
+    .cols { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+    .cta-row { display:flex; gap:12px; flex-wrap:wrap; }
+    .service-tag { font-size:12px; background:#eef6ff; padding:4px 8px; border-radius:8px; border:1px solid #e1edfb; color:#35506a; }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .hero .wrap, .grid-3, .grid-2, .gallery, .cols { grid-template-columns:1fr; }
+      .hero h1 { font-size:32px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="wrap nav">
+      <div class="logo">
+        <div class="mark">AR</div>
+        <span>AR Solutions</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact" class="btn btn-outline">Consult</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Pressure washing that restores pride in your property</h1>
+        <p>Driveways, roofs, curbs, patios, decks, fences, siding—if it needs washing, we handle it with care and power.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#services">Book a service</a>
+          <a class="btn btn-outline" href="#contact">Request in-person consult</a>
+        </div>
+        <div class="badges">
+          <span class="badge">Fully insured</span>
+          <span class="badge">Eco-friendly detergents</span>
+          <span class="badge">Atlanta & Metro Area</span>
+          <span class="badge">Satisfaction guaranteed</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="notice"><strong>Same-week availability:</strong> Morning and afternoon slots open.</div>
+        <p style="margin:12px 0 8px;"><strong>Call/Text:</strong> <a href="tel:+14045550123">+1 (404) 555‑0123</a></p>
+        <p style="margin:0 0 8px;"><strong>Email:</strong> <a href="mailto:hello@arsolutions.com">hello@arsolutions.com</a></p>
+        <div style="display:flex; gap:8px; flex-wrap:wrap;">
+          <span class="service-tag">Residential</span>
+          <span class="service-tag">Commercial</span>
+          <span class="service-tag">Soft wash roofs</span>
+          <span class="service-tag">Oil stain treatment</span>
+          <span class="service-tag">Curb painting</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <h2>Services and online booking</h2>
+      <p class="notice">Prices are starting estimates. Final quote confirmed during your in-person consult or via photos.</p>
+
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>Driveway pressure washing</h3>
+          <div class="pill">Most popular</div>
+          <div class="price">Starting at $129</div>
+          <ul class="features">
+            <li>Pre-treat degreaser for stains</li>
+            <li>High-pressure rinse, edge to edge</li>
+            <li>Sealant add-on available</li>
+          </ul>
+          <div class="cta-row">
+            <!-- Replace with your Stripe/PayPal/Calendly link -->
+            <a class="btn btn-primary" href="https://buy.stripe.com/your-driveway-link">Buy/Book</a>
+            <a class="btn btn-outline" href="#contact">Get consult</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Roof soft washing</h3>
+          <div class="pill">Soft wash</div>
+          <div class="price">Starting at $249</div>
+          <ul class="features">
+            <li>Low-pressure algae/moss treatment</li>
+            <li>Protects shingles and tiles</li>
+            <li>Gutterline rinse included</li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://buy.stripe.com/your-roof-link">Buy/Book</a>
+            <a class="btn btn-outline" href="#contact">Get consult</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Curb painting</h3>
+          <div class="pill">Address/HOA compliant</div>
+          <div class="price">Starting at $59</div>
+          <ul class="features">
+            <li>Clean, prep, and paint</li>
+            <li>High-visibility reflective options</li>
+            <li>Fast turnaround</li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://buy.stripe.com/your-curb-link">Buy/Book</a>
+            <a class="btn btn-outline" href="#contact">Get consult</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Patio and pool deck</h3>
+          <div class="price">Starting at $139</div>
+          <ul class="features">
+            <li>Mildew and algae removal</li>
+            <li>Joint-safe cleaning methods</li>
+            <li>Sealer add-on optional</li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://buy.stripe.com/your-patio-link">Buy/Book</a>
+            <a class="btn btn-outline" href="#contact">Get consult</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Wood decks and fences</h3>
+          <div class="pill">Gentle wood care</div>
+          <div class="price">Starting at $149</div>
+          <ul class="features">
+            <li>Soft wash to protect grain</li>
+            <li>Oxalic brightening on request</li>
+            <li>Stain/seal add-on available</li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://buy.stripe.com/your-wood-link">Buy/Book</a>
+            <a class="btn btn-outline" href="#contact">Get consult</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Full home exterior</h3>
+          <div class="pill">Bundle & save</div>
+          <div class="price">Custom quote</div>
+          <ul class="features">
+            <li>Siding, soffits, and walkways</li>
+            <li>Window rinse included</li>
+            <li>Bundle with driveway for discount</li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#contact">Request quote</a>
+            <a class="btn btn-outline" href="mailto:hello@arsolutions.com">Email us</a>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:18px;" class="notice">
+        Need something else? We handle oil stains, rust removal, graffiti, dumpster pads, storefronts, and more. Ask in your consult request.
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="wrap">
+      <h2>Before & after</h2>
+      <div class="gallery">
+        <!-- Replace with your own images -->
+        <img src="https://images.unsplash.com/photo-1581574209461-b6d5c98f2e00?q=80&w=800" alt="Driveway clean result">
+        <img src="https://images.unsplash.com/photo-1523419409543-a9f421c0b3e5?q=80&w=800" alt="Patio wash result">
+        <img src="https://images.unsplash.com/photo-1562259949-c0b0c7200fcd?q=80&w=800" alt="Wood deck wash result">
+        <img src="https://images.unsplash.com/photo-1531835551805-16d864c8b7cf?q=80&w=800" alt="House exterior clean">
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <h2>FAQ</h2>
+      <div class="grid grid-2 faq">
+        <details>
+          <summary>Do you offer in-person consults for quotes?</summary>
+          <p>Yes. Choose “Request in-person consult” below and we’ll schedule a visit to confirm scope and pricing.</p>
+        </details>
+        <details>
+          <summary>Are you insured?</summary>
+          <p>Yes, we are fully insured and can provide certificates upon request.</p>
+        </details>
+        <details>
+          <summary>What areas do you serve?</summary>
+          <p>We serve Atlanta and the greater metro area. Contact us if you’re nearby.</p>
+        </details>
+        <details>
+          <summary>How do payments work?</summary>
+          <p>You can pay online through our secure links when booking, or pay on site after service is completed.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <h2>Request an in-person consult</h2>
+      <div class="cols">
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+          <div>
+            <label for="name">Full name</label>
+            <input id="name" name="name" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required />
+          </div>
+          <div>
+            <label for="phone">Phone</label>
+            <input id="phone" type="tel" name="phone" required />
+          </div>
+          <div>
+            <label for="address">Service address</label>
+            <input id="address" name="address" placeholder="Street, City, ZIP" />
+          </div>
+          <div>
+            <label for="service">Service needed</label>
+            <select id="service" name="service">
+              <option>Driveway pressure washing</option>
+              <option>Roof soft washing</option>
+              <option>Curb painting</option>
+              <option>Patio / pool deck</option>
+              <option>Wood deck / fence</option>
+              <option>Full home exterior</option>
+              <option>Other (describe below)</option>
+            </select>
+          </div>
+          <div>
+            <label for="details">Details</label>
+            <textarea id="details" name="details" rows="4" placeholder="Share stains, size, material, photos link, preferred times"></textarea>
+          </div>
+          <div>
+            <button class="btn btn-primary" type="submit">Submit request</button>
+          </div>
+          <p style="font-size:12px; color:#5a6f82;">By submitting, you agree to be contacted about your request.</p>
+        </form>
+        <div>
+          <div class="card">
+            <h3>Contact</h3>
+            <p><strong>Phone:</strong> <a href="tel:+14045550123">+1 (404) 555‑0123</a></p>
+            <p><strong>Email:</strong> <a href="mailto:hello@arsolutions.com">hello@arsolutions.com</a></p>
+            <p><strong>Service area:</strong> Atlanta & Metro Area</p>
+          </div>
+          <div class="card">
+            <h3>Availability</h3>
+            <p>Mon–Sat: 8:00 AM – 6:00 PM</p>
+            <p>Sunday by appointment</p>
+          </div>
+          <div class="card">
+            <h3>Follow us</h3>
+            <p><a href="https://instagram.com/your-handle">Instagram</a> · <a href="https://facebook.com/your-page">Facebook</a> · <a href="https://nextdoor.com/">Nextdoor</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap" style="padding:28px 16px; display:flex; flex-wrap:wrap; gap:16px; align-items:center; justify-content:space-between;">
+      <div>&copy; <span id="year"></span> AR Solutions. All rights reserved.</div>
+      <div><a href="#services">Services</a> · <a href="#contact">Consult</a> · <a href="mailto:hello@arsolutions.com">Email</a></div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
